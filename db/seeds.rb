@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 1.upto(5) do |n|
-  Item.create(title: "item#{n}")
+  Item.create(name: "item#{n}")
 end
