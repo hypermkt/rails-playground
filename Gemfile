@@ -25,7 +25,7 @@ gem 'grpc-tools'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
-gem 'sidekiq', '~> 6.5.0'
+gem 'sidekiq', '~> 7.1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
