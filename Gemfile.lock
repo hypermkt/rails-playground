@@ -187,10 +187,10 @@ GEM
       rspec-mocks (~> 3.12)
       rspec-support (~> 3.12)
     rspec-support (3.12.0)
-    sidekiq (6.4.0)
+    sidekiq (6.5.5)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
-      redis (>= 4.2.0)
+      redis (>= 4.5.0)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -220,7 +220,7 @@ DEPENDENCIES
   puma (~> 6.0)
   rails (~> 7.0.5)
   rspec-rails (~> 6.0)
-  sidekiq (~> 6.4.0)
+  sidekiq (~> 6.5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
