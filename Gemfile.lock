@@ -90,7 +90,7 @@ GEM
     globalid (1.1.0)
       activesupport (>= 5.0)
     google-protobuf (3.23.2)
-    grpc-tools (1.55.0)
+    grpc-tools (1.56.2)
     i18n (1.13.0)
       concurrent-ruby (~> 1.0)
     listen (3.8.0)
