@@ -217,7 +217,7 @@ GEM
       rspec-support (~> 3.12)
     rspec-support (3.12.1)
     ruby2_keywords (0.0.5)
-    sidekiq (7.1.6)
+    sidekiq (7.2.0)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
       rack (>= 2.2.4)
@@ -253,7 +253,7 @@ DEPENDENCIES
   puma (~> 6.0)
   rails (~> 7.1.0)
   rspec-rails (~> 6.0)
-  sidekiq (~> 7.1.0)
+  sidekiq (~> 7.2.0)
   spring
   spring-watcher-listen (~> 2.1.0)
   tzinfo-data
