@@ -199,7 +199,7 @@ GEM
       ffi (~> 1.0)
     rdoc (6.10.0)
       psych (>= 4.0.0)
-    redis-client (0.18.0)
+    redis-client (0.23.0)
       connection_pool
     reline (0.6.0)
       io-console (~> 0.5)
@@ -221,11 +221,11 @@ GEM
       rspec-support (~> 3.12)
     rspec-support (3.12.1)
     securerandom (0.4.1)
-    sidekiq (7.1.6)
-      concurrent-ruby (< 2)
+    sidekiq (7.3.7)
       connection_pool (>= 2.3.0)
+      logger
       rack (>= 2.2.4)
-      redis-client (>= 0.14.0)
+      redis-client (>= 0.22.2)
     spring (4.2.1)
     spring-watcher-listen (2.1.0)
       listen (>= 2.7, < 4.0)
@@ -256,7 +256,7 @@ DEPENDENCIES
   puma (~> 6.5)
   rails (~> 7.1.0)
   rspec-rails (~> 6.0)
-  sidekiq (~> 7.1.0)
+  sidekiq (~> 7.3.7)
   spring
   spring-watcher-listen (~> 2.1.0)
   tzinfo-data
