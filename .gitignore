@@ -33,6 +33,7 @@
 
 .env.development
 .env.test
+.env
 
 /vendor/bundle/
 
