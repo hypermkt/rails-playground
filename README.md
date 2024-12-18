@@ -5,6 +5,8 @@
 ```
 $ bundle instlal --vendor/bundle
 $ docker-compose up -d
+$ cp .env.template .env
+$ bundle exec rails db:create db:migrate
 ```
 
 ## Start
