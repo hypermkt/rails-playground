@@ -105,7 +105,9 @@ GEM
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (3.25.5)
+    google-protobuf (4.30.0)
+      bigdecimal
+      rake (>= 13)
     grpc-tools (1.68.1)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
