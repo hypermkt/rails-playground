@@ -78,8 +78,16 @@ GEM
       mutex_m
       securerandom (>= 0.3)
       tzinfo (~> 2.0)
+    ast (2.4.3)
     base64 (0.2.0)
     benchmark (0.4.0)
+    better_html (2.1.1)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
     bigdecimal (3.1.8)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
@@ -88,6 +96,7 @@ GEM
     coderay (1.1.3)
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
+    constant_resolver (0.3.0)
     crass (1.0.6)
     date (3.4.1)
     diff-lcs (1.5.0)
@@ -145,7 +154,23 @@ GEM
     nokogiri (1.17.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    packwerk (3.2.3)
+      activesupport (>= 6.0)
+      ast
+      better_html
+      bundler
+      constant_resolver (>= 0.3)
+      parallel
+      parser
+      prism (>= 0.25.0)
+      sorbet-runtime (>= 0.5.9914)
+      zeitwerk (>= 2.6.1)
+    parallel (1.27.0)
+    parser (3.3.8.0)
+      ast (~> 2.4.1)
+      racc
     pg (1.5.9)
+    prism (1.4.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -226,6 +251,8 @@ GEM
       connection_pool (>= 2.3.0)
       rack (>= 2.2.4)
       redis-client (>= 0.14.0)
+    smart_properties (1.17.0)
+    sorbet-runtime (0.5.12167)
     spring (4.2.1)
     spring-watcher-listen (2.1.0)
       listen (>= 2.7, < 4.0)
@@ -251,6 +278,7 @@ DEPENDENCIES
   google-protobuf
   grpc-tools
   listen (>= 3.0.5, < 3.9)
+  packwerk
   pg
   pry-rails
   puma (~> 6.5)
