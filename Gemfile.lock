@@ -59,6 +59,8 @@ GEM
       activemodel (= 7.1.5.1)
       activesupport (= 7.1.5.1)
       timeout (>= 0.4.0)
+    activerecord-bitemporal (6.0.0)
+      activerecord (>= 7.0)
     activestorage (7.1.5.1)
       actionpack (= 7.1.5.1)
       activejob (= 7.1.5.1)
@@ -244,6 +246,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-bitemporal
   bootsnap (>= 1.4.2)
   byebug
   dotenv-rails
