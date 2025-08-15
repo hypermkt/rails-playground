@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.1.0'
+gem 'activerecord-bitemporal'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 6.5'
@@ -34,6 +35,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 6.0'
   gem "factory_bot_rails"
   gem 'pry-rails'
+  gem "timecop"
 end
 
 group :development do
